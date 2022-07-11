@@ -1,6 +1,6 @@
 FROM openjdk:11
 RUN useradd -ms /bin/bash user1
-RUN sudo usermod -aG sudo user1
+RUN usermod -aG sudo user1
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 RUN mkdir /home/user1/workbuild
 WORKDIR /home/user1/workbuild
