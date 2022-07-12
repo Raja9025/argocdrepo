@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: c01
-        image: bc2113428/project1:ebf4b7f
+        image: bc2113428/project1:tagVersion
         ports:
         - containerPort: 8080
             
