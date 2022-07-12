@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: c01
-        image: somerandom-shit 
+        image: bc2113428/project1:ebf4b7f
         ports:
         - containerPort: 8080
             
