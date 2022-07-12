@@ -1,0 +1,21 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: jenkins-deploy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: abc1
+  templates:
+    metadata:
+      name: app-pod
+      labels:
+        name: abc1
+    spec:
+      containers:
+      - name: c01
+        image:
+        ports:
+        - containerPort: 8080
+            
