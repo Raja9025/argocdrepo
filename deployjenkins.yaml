@@ -7,7 +7,7 @@ spec:
   selector:
     matchLabels:
       name: abc1
-  templates:
+  template:
     metadata:
       name: app-pod
       labels:
@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: c01
-        image:
+        image: somerandom-shit 
         ports:
         - containerPort: 8080
             
