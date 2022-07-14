@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sed -i "s/tagVersion/$1/g" deployjenkins.yaml 
+sed -i "s/tagVersion/$1/g" jenkinschart/values.yaml 
