@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: bc2113428/argocd:`git rev-parse --short HEAD`-12
+  repository: bc2113428/argocd:af53112-17
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
