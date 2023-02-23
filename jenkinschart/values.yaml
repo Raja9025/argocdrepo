@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: bc2113428/project1
+  repository: bc2113428/argocd:dbdc3ee-4
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
